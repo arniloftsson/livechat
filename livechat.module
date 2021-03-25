@@ -28,4 +28,5 @@ function livechat_init()
 {
 	if (!path_is_admin(current_path()))
 		Livechat::get_instance()->install_codes();
+		drupal_add_js(drupal_get_path('module', 'livechat') . '/js/mobile_detect.js', 'file');
 }

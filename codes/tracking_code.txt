@@ -1,5 +1,6 @@
 var __lc = {};
 __lc.license = {%LICENSE%};
+__lc.group = 0;
 
 (function() {
   var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
